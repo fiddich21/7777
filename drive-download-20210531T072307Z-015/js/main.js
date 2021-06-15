@@ -15,8 +15,8 @@ jQuery(document).ready(function () {
 });
 
 //* Define spreadsheet URL (make sure you add the #gid=0 for the sheet you want to use)
-//* var googleSheetURI = 'https://docs.google.com/spreadsheets/d/1h0_fhdWuvd-n-rGL6ESknslgf13ilmeQ3-6Zf5Tflzk/edit?usp=sharing';
-var googleSheetURI = 'https://docs.google.com/spreadsheets/d/1h0_fhdWuvd-n-rGL6ESknslgf13ilmeQ3-6Zf5Tflzk/edit?usp=sharing';
+//* var googleSheetURI = 'https://docs.google.com/spreadsheets/d/1h0_fhdWuvd-n-rGL6ESknslgf13ilmeQ3-6Zf5Tflzk/edit#gid=1183405185';
+var googleSheetURI = 'https://docs.google.com/spreadsheets/d/1h0_fhdWuvd-n-rGL6ESknslgf13ilmeQ3-6Zf5Tflzk/edit#gid=1183405185';
 //* Compile the Handlebars template for HR leaders
 var HRTemplate = Handlebars.compile($('#hr-template').html());
 
